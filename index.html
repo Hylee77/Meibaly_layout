@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meipaly</title>
+
+
+    <!-- FONT GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- FANCYBOX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+
+    <!-- SLICK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- landing page -->
+    <header>
+        <div class="header__content">
+            <a href="#" class="logo">
+                <i class="fab fa-atlassian"></i>
+                <span>meipaly</span>
+            </a>
+            <nav>
+                <!-- ul>li*6>a -->
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Showcase</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- section.carousel -->
+    <section class="carousel">
+        <div class="carousel__content">
+            <p>WELCOME TO MEIPALY AGENCY</p>
+            <h1>SMART WEB
+                DESIGN AGENCY</h1>
+            <button>READ MORE</button>
+            <div>
+                <i class="fa fa-angle-down"></i>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <!-- BEM -->
+        <div class="title title--color">
+            <p class="title__first">OUR PORTFOLIO</p>
+            <h2>WE DESIGN DIGITAL PRODUCTS THAT HELP GROW BUSINESSES.</h2>
+            <p>We are committed to providing our customers with exceptional service while offering our
+                employees the best training.
+            </p>
+        </div>
+        <div class="services__content">
+            <!-- Xây dựng theo hướng dẫn của thư viện  -->
+            <!-- services__slider: gắn hiệu ứng js, style css của thư viện -->
+            <div class="services__slider">
+                <div class="service__item">
+                    <i class="fa fa-dice-d6"></i>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+                <div class="service__item">
+                    <i class="fab fa-autoprefixer"></i>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+                <div class="service__item">
+                    <i class="fab fa-500px"></i>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+                <div class="service__item">
+                    <i class="fa fa-blog"></i>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+                <div class="service__item">
+                    <i class="fab fa-battle-net"></i>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+                <div class="service__item">
+                    <i class="fa fa-memory"></i>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="showcases">
+        <div class="title">
+            <p class="title__first">OUR PORTFOLIO</p>
+            <h2>WORK SHOWCASE</h2>
+            <p>We are committed to providing our customers with exceptional service while offering our
+                employees the best training.
+            </p>
+        </div>
+        <div class="showcases__content">
+            <div class="showcases__item">
+                <img src="./img/showcase_img_1.webp" alt="">
+                <!-- overlay effect css -->
+                <div class="showcases__overlay">
+                    <div class="showcases__icon">
+                        <a href="./img/showcase_img_1.webp" data-fancybox="gallery">
+                            <i class="fa fa-search-plus"></i>
+                        </a>
+                    </div>
+                    <div class="showcases__text">
+                        <p>LOGO</p>
+                        <p>FLIPPIN BIRD</p>
+                    </div>
+                </div>
+            </div>
+            <div class="showcases__item">
+                <img src="./img/showcase_img_2.webp" alt="">
+                <div class="showcases__overlay">
+                    <div class="showcases__icon">
+                        <a href="./img/showcase_img_2.webp" data-fancybox="gallery">
+                            <i class="fa fa-search-plus"></i>
+                        </a>
+                    </div>
+                    <div class="showcases__text">
+                        <p>LOGO</p>
+                        <p>FLIPPIN BIRD</p>
+                    </div>
+                </div>
+            </div>
+            <div class="showcases__item">
+                <img src="./img/showcase_img_3.webp" alt="">
+            </div>
+            <div class="showcases__item">
+                <img src="./img/showcase_img_5.webp" alt="">
+            </div>
+            <div class="showcases__item">
+                <img src="./img/showcase_img_6.webp" alt="">
+            </div>
+            <div class="showcases__item">
+                <img src="./img/showcase_img_7.webp" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="blog">
+        <div class="title">
+            <p class="title__first">OUR PORTFOLIO</p>
+            <h2>LATEST BLOG POSTS</h2>
+            <p>We are committed to providing our customers with exceptional service while offering our
+                employees the best training.
+            </p>
+        </div>
+        <div class="blog__content">
+            <div class="blog__item item1">
+                <img src="./img/grid-metro-1.jpg" alt="">
+                <div class="blog__overlay">
+                </div>
+            </div>
+            <div class="blog__item">
+                <img src="./img/grid-metro-2.jpg" alt="">
+            </div>
+            <div class="blog__item">
+                <img src="./img/grid-metro-3.jpg" alt="">
+            </div>
+            <div class="blog__item">
+                <img src="./img/grid-metro-4.jpg" alt="">
+            </div>
+            <div class="blog__item">
+                <img src="./img/grid-metro-5.jpg" alt="">
+            </div>
+            <div class="blog__item">
+                <img src="./img/grid-metro-6.jpg" alt="">
+            </div>
+            <div class="blog__item">
+                <img src="./img/grid-metro-7.jpg" alt="">
+            </div>
+            <div class="blog__item">
+                <img src="./img/grid-metro-8.jpg" alt="">
+            </div>
+            <div class="blog__item">
+                <img src="./img/grid-metro-9.jpg" alt="">
+            </div>
+            <div class="blog__item item10">
+                <img src="./img/grid-metro-10.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="number">
+        <div class="number__content">
+            <div class="number__item">
+                <p class="counter">8,705</p>
+                <p>PROJECTS COMPLETED</p>
+            </div>
+            <div class="number__item">
+                <p class="counter">480</p>
+                <p>ACTIVE CLIENTS</p>
+            </div>
+            <div class="number__item">
+                <p class="counter">625</p>
+                <p>CUPS OF COFFEE</p>
+            </div>
+            <div class="number__item">
+                <p class="counter">9,774</p>
+                <p>HAPPY CLIENTS</p>
+            </div>
+
+        </div>
+    </section>
+    <section class="exp">
+        <div class="title title--color">
+            <p class="title__first">OUR PORTFOLIO</p>
+            <h2>WE DESIGN DIGITAL PRODUCTS THAT HELP GROW BUSINESSES.</h2>
+            <p>We are committed to providing our customers with exceptional service while offering our
+                employees the best training.
+            </p>
+        </div>
+        <div class="exp__content">
+            <video poster="./img/home_slider.jpg" controls src="./img/video.mp4"></video>
+
+            <!-- iframe: nhúng nội code của web khác
+            third party -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7v8zNshVUEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+        </div>
+    </section>
+    <section class="contact">
+        <div class="title">
+            <h2>CONTACT</h2>
+            <p>We are committed to providing our customers with exceptional service while offering our
+                employees the best training.
+            </p>
+        </div>
+        <div class="contact__content">
+            <div class="contact__map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18165.908642223236!2d108.21262308574447!3d16.04553345533853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219e7a191cc17%3A0xe60f91d4055e3074!2zQXNpYSBQYXJrIC0gQ8O0bmcgdmnDqm4gQ2jDonUgw4E!5e0!3m2!1svi!2s!4v1639059070637!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="contact__form">
+                <form>
+                    <!-- <label for="number1">Number</label>
+                    <input id="number1" placeholder="number" type="number">
+                    <input placeholder="Pass" type="password">
+                    <button type="reset">Reset</button>
+                    <button type="button">Button</button>
+                    <input type="button" value="Button"> -->
+                    <input placeholder="Username" type="text">
+                    <input placeholder="Email" type="email">
+                    <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+                    <button type="submit">Submit</button>
+                    
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+
+
+    <!-- backtotop -->
+    <a href="#" class="backtotop cd-top text-replace js-cd-top">
+        <i class="fa fa-angle-up"></i>
+    </a>
+
+
+
+    <!-- Jquery Hỗ trợ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Jquery Waypoint -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+        integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Count up -->
+    <script src="./js/jquery.countup.js"></script>
+    <script>
+        $('.counter').countUp();
+    </script>
+
+
+    <!-- Vị trí khuyến khích cài đặt js -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    <!-- Slick -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        //gọi slick ra dùng
+        //tìm thẻ có class services__slider để gắn hiệu ứng
+        $('.services__slider').slick({
+            //tạo vòng lặp
+            infinite: true,
+            //số slider hiển thị
+            slidesToShow: 5,
+            //số slider sẽ hiện tiếp khi click (mặc định: 1)
+            // slidesToScroll: 3
+            //2 dấu mũi tên trái phải
+            arrows:false,
+            //dấu chấm chuyển slide
+            dots:true
+        });
+    </script>
+
+
+    <!-- BackToTop -->
+    <script src="./js/util.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
